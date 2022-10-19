@@ -251,7 +251,7 @@ typedef enum _PyCodeLocationInfoKind {
 
 typedef enum {
   PYCODEOBJECT_EVENT_CREATED,
-  PYCODEOBJECT_EVENT_DESTROY
+  PYCODEOBJECT_EVENT_DESTROYED
 } PyCodeObject_Event;
 
 typedef void(*PyCodeObject_EventCallback)(

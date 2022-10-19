@@ -1694,7 +1694,7 @@ static void
 code_dealloc(PyCodeObject *co)
 {
     // Jaineel
-    handle_code_object_event(PYCODEOBJECT_EVENT_DESTROY, co);
+    handle_code_object_event(PYCODEOBJECT_EVENT_DESTROYED, co);
     // Jaineel
 
     if (co->co_extra != NULL) {
